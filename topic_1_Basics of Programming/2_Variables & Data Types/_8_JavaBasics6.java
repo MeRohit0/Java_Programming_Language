@@ -29,7 +29,7 @@ public class _8_JavaBasics6 {
 
 //using the nextLine();
         System.out.println("Enter a string value : ");
-        sc.nextLine();   
+        sc.nextLine();   //this is to ignore the previous input from next()
         String name2 = sc.nextLine();
         System.out.println(name2);
 

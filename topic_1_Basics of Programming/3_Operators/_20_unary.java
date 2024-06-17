@@ -3,7 +3,7 @@
 
 1. increment 
     pre-increment      post-increment
-    ++a                --a
+    ++a                 a++
 
 2. decrement 
     pre-decrement       post-decrement

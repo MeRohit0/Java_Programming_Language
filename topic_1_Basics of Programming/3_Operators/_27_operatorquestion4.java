@@ -1,7 +1,7 @@
-/*  
+/*  rule:
     1. check operator precedence  
     2. check the associativity left to right or right to left in case of same level
-
+    parenthesis > postfix > prefix > Multiplicative > Addition > relational > logical 
 */
 public class _27_operatorquestion4 {
     public static void main(String[] args) {

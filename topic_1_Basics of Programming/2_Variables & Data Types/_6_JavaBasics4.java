@@ -32,6 +32,7 @@ public class _6_JavaBasics4 {
         float flo = 10.7654321f;
         System.out.println(flo);
 
+        //long is for integer value and double is for float value 
         long num2 = 5123413434234232343l;
         double dou = 34461743243.341344124145636525134534512454f;
         System.out.println(num2);
