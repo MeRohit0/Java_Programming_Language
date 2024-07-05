@@ -1,6 +1,6 @@
 /*
 
-here we will mutiply using rhere ofppicaerr
+here we will mutiply using call by value 
 
 */
 

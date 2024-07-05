@@ -6,13 +6,13 @@
 
     int [] arr = [1,2,3,4,5,6,7,8];
 
-    System.out.printlm(arr[0]); ---> at index 0 there is 1 integer  
+    System.out.println(arr[0]); ---> at index 0 there is 1 integer  
 
     Operations in Arrays 
 
     🔘1. create 
-    🔘2. input 
-    🔘3. output 
+    🔘2. insert
+    🔘3. retrive 
     🔘4. update
 
     creating an array 

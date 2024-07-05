@@ -1,5 +1,5 @@
 /*
-for ( initailazation ; condition ; updation )
+for ( initialization ; condition ; updation )
 for loop has all 3 condition in one line 
 
  */

@@ -12,42 +12,59 @@
 
  */
 public class _125_spiralMatrix {
-    public static void printSpiral(int matrix[][]){
-        //top , right , bottom , left 
-        int top = 0;
-        int right = matrix[0].length -1 ;
-        int bottom = matrix.length -1 ;
-        int left  = 0;
+
+    public static void printSpiral(int arr[][]){
+        //print --> top --> right --> bottom  --> left
+        int startRow , endRow , startCol , endCol;
+        startRow = 0 ;
+        startCol= 0 ; 
+        endRow =  arr.length - 1 ;
+        endCol = arr[0].length - 1 ;
+    
+        while ( startRow <= endRow && startCol <= endCol)  {
+            
+            //print top
+            for (int j = startCol; j <= endCol ; j++) {
+                System.out.print(arr[startRow][j] + " ");
+            }
+            
+            //print right 
+            for(int i = startRow + 1 ; i <= endRow ; i++ ){
+                System.out.print(arr[i][endCol] + " ");
+            }
         
-        //print all values 
-        while(bottom >= top && left >= right){
-            //print top 
-            for(int i = top ; i < right; i++ ){
-                System.out.print(matrix[top][i]);
-            }
-            //print right
-            for(int i = right ; i < bottom ; i ++){
-                System.out.print(matrix[i][matrix[0].length]);
-            }
             //print bottom
-            for(int i = bottom ; i < left; i-- ){
-                System.out.print(matrix[bottom][i]);
+            for (int j = endCol - 1 ; j >= startCol ; j--) {
+                if(startRow == endRow){
+                    break;
+                }
+                System.out.print(arr[endRow][j] + " ");
             }
-            //print left 
-            for(int i = left ; i < top; i-- ){
-                System.out.print(matrix[left][i]);
+            //print left
+            for (int i = endRow - 1  ; i > startRow ; i--) {
+                if(startCol == endCol){
+                    break ;
+                }
+                System.out.print(arr[i][startCol] + " ");
             }
-            top++ ; 
-            right++ ;
-            bottom-- ; 
-            left--;
+    
+            startRow ++ ;
+            startCol ++ ; 
+            endRow -- ;
+            endCol --;
+    
         }
-
-
     }
     public static void main(String[] args) {
-        int matrix[][] = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+
+        int matrix[][] = 
+        {{1,2,3,4},
+        {5,6,7,8},
+        {9,10,11,12},
+        {13,14,15,16}};
+
         printSpiral(matrix);
     }
-
+    
+        
 }

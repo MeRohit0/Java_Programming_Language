@@ -1,10 +1,10 @@
 /*
 
-    it is used to saved multiple values in same list 
+    arrays is used to saved multiple values in same list 
 
     operation on array 
-    🔘1. input 
-    🔘2. output 
+    🔘1. insert
+    🔘2. retrive 
     🔘3. update 
 
 */
@@ -28,13 +28,13 @@ public class _98_arrays_operations {
 
         marks[2] = sc.nextInt();    //math
 
-        System.out.println("Marks of phy : " +  marks[0]);
-        System.out.println("Marks of chem : " + marks[1]);
-        System.out.println("Marks of math : " + marks[2]);
+        System.out.println("Marks of phy : " +  marks[0]);      //  retrive
+        System.out.println("Marks of chem : " + marks[1]);      //  retrive
+        System.out.println("Marks of math : " + marks[2]);      //  retrive
 
         sc.close();
         
-        marks[2] = marks[2] + 1 ;  // update the value 
+        marks[2] = marks[2] + 1 ;       // update the value 
         System.out.println("Updated Marks of Maths : " + marks[2]);
 
     }

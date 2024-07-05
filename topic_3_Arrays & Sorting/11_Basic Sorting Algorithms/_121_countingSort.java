@@ -1,7 +1,7 @@
 /*
     countingsort   
     it is used to sort the element which are in large volume but there range is small 
-    example - [1,1,3,3,4,5,3,3,2,2,6,4,4,3,4,5,2,2,4,5,3,5] here number range is from 1 to 5 
+    example - [1,1,3,3,4,5,3,3,2,2,6,4,4,3,4,5,2,2,4,5,3,5] here number range is from 1 to 6 
 
     they are mainly used for positive numbers which include 0 zero also 
 
@@ -11,7 +11,7 @@
 public class _121_countingSort {
     public static void countSort(int arr[]){
         
-        //find max number
+        //find max number i.e. range 
         int maxnum = Integer.MIN_VALUE ; 
         for(int i = 0 ; i < arr.length ; i++){
             maxnum = Integer.max( maxnum , arr[i] );

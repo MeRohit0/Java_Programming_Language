@@ -15,7 +15,7 @@ public class _80_decimal_to_binary {
             bin = bin + ( rem * (int)Math.pow(10,pow) ); 
             number = number/2;
             pow ++ ;
- 
+
         }    
         System.out.println("binary of " + deci + " is " + bin);
     }

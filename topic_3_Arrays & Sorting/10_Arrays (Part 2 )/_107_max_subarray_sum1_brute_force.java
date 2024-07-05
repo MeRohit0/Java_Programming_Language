@@ -19,7 +19,7 @@ NOTE :  Time Complexity --> O(n ^ 3 ) n cube
     
  */
 public class _107_max_subarray_sum1_brute_force {
-    public static void printSubarray(int arr[]){
+    public static void maxSubarraySum(int arr[]){
         int currSum = 0 ;
         int maxSum = Integer.MIN_VALUE;
         
@@ -45,8 +45,8 @@ public class _107_max_subarray_sum1_brute_force {
         int number[] = {2,4,6,8, 10};
         int number1[] = {1,-2,6,-1, 3};
         System.out.println("max Sum of first number is : ");
-        printSubarray(number);  
+        maxSubarraySum(number);  
         System.out.println("max Sum of second number is : ");
-        printSubarray(number1);  
+        maxSubarraySum(number1);  
     }
 }

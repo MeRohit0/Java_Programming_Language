@@ -7,6 +7,7 @@
     e.Math.avg( )
     f.Math.abs( )
  */
+import java.lang.Math;
 public class _85_function_question4 {
     public static void main(String[] args) {
         System.out.println(Math.min(32, 73));

@@ -30,7 +30,7 @@ public class _106_print_subarray {
                     System.out.print( number[k] + " ");
                 }
                 ts++;
-                System.out.print(" ");
+                System.out.println(" ");
             }
             System.out.println();
         }

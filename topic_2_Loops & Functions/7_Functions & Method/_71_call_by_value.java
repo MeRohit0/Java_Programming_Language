@@ -1,7 +1,9 @@
 /*
 
-here we change the value of variable by call by value in java new copy 
-of variable is given to new function 
+    In java Call by value is used not call by reference 
+
+    here we change the value of variable by call by value in java new copy 
+    of variable is given to new function 
 
 */
 

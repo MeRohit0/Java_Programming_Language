@@ -24,7 +24,7 @@ public class _105_pairs {
         }
         System.out.println("Total pairs is : " + totalPairs);
     }
-    public static void main (String argsp[]){
+    public static void main (String args[]){
         int number[] = { 1, 3, 5 , 7, 8, 9};
         pairs(number);
 

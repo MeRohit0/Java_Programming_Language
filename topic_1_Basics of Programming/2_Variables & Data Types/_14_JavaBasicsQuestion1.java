@@ -1,4 +1,8 @@
-//program input 3 numbers: A ,B and C. You have to output the average of these 3 numbers.
+/*
+    Program input 3 numbers: A ,B and C. 
+    You have to output the average of these 3 numbers.
+*/
+
 import java.util.Scanner;
 public class _14_JavaBasicsQuestion1 {
     public static void main(String args[]){

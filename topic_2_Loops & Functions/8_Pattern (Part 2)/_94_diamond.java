@@ -30,7 +30,7 @@ class _94_diamond{
                 System.out.print("*");
             }
             System.out.println();
-            if(i < 4){
+            if(i < 4){                      //  <-------    Here 
                 // first half
                 star = star + 2 ;
                 space --;

@@ -34,7 +34,7 @@ public class _6_JavaBasics4 {
 
         //long is for integer value and double is for float value 
         long num2 = 5123413434234232343l;
-        double dou = 34461743243.341344124145636525134534512454f;
+        double dou = 34461743243.341344124145636525134534512454D;
         System.out.println(num2);
         System.out.println(dou);
         

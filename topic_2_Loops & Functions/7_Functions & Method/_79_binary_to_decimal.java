@@ -1,5 +1,6 @@
 /*
     convert the binary number to decimal number 
+    Math.pow(base, power)
 */
 public class _79_binary_to_decimal {
 

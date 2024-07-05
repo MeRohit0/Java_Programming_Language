@@ -4,6 +4,8 @@
     bubble sort 
     traversed from left to right is compare the adjacent element 
     and the higher one is placed on right side 
+    
+    It is inspired from the boiling water
 
     time complexity - O(n ^ 2 )n square 
  */

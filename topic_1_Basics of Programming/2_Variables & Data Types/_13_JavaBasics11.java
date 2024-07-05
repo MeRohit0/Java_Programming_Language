@@ -1,7 +1,7 @@
 /* type promotion in expression 
 1.  Java convert byte , char, short to int when evaluating in expression.
 2.  if one operand is float , long and double the whole expression is
-     promoted to long ,float and double respectively.
+     promoted to  float , long and double respectively.
 */
 public class _13_JavaBasics11 {
     public static void main(String args[]){
@@ -11,7 +11,7 @@ public class _13_JavaBasics11 {
         b = (byte)(b * 2);
         System.out.println("Value of byte is :"+ b);
 
-        //point 1 ;
+        //point 1 
         char ch = 'a';
         char ch2 = 'b';
         short sh = 432;

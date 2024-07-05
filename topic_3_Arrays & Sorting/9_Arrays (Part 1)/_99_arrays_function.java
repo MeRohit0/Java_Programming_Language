@@ -3,6 +3,7 @@
     NOTE : array are pass by call by reference  
  */
 public class _99_arrays_function {
+
     public static void update(int marks[]){
         for(int i = 0 ; i < marks.length ; i ++){
             marks[i] += 1;
@@ -12,6 +13,7 @@ public class _99_arrays_function {
         int marks[] = { 95 ,84, 34};
 
         update(marks);
+        //  print array
         for (int i = 0; i < marks.length; i++) {
             System.out.print(marks[i] + " ");
         }

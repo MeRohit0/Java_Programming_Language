@@ -1,10 +1,10 @@
 /*
     NUMBER PYRAMID pattern
-        1
-       2 2
-      3 3 3
-     4 4 4 4
-    5 5 5 5 5 
+        1                   line = 1  ,  space = 4 , symbol = 1 , total_symbol = 1
+       2 2                  line = 2  ,  space = 3 , symbol = 2 , total_symbol = 3
+      3 3 3                 line = 3  ,  space = 2 , symbol = 3 , total_symbol = 5
+     4 4 4 4                line = 4  ,  space = 1 , symbol = 4 , total_symbol = 7
+    5 5 5 5 5               line = 5  ,  space = 0 , symbol = 5 , total_symbol = 9
 
  */
 public class _95_number_pyramid {

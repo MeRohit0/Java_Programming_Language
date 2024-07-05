@@ -3,8 +3,8 @@ public class _17_JavaBasicsQuestion4_and_5 {
     public static void main(String[] args) {
         
         //Question 5 
-        boolean $ = true;
-        System.out.println("The value of $ is : " + $);
+        boolean $asdasd5 = true;
+        System.out.println("The value of $ is : " + $asdasd5);
 
         //Question 4 solve equation 
         byte b = 4;

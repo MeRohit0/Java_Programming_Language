@@ -1,6 +1,7 @@
 /*
-    Creation for 2d arrays 
-    Note : it is not compulsory to store arrays in contiguous fashion 
+    Program for the Creation for 2d arrays 
+    Note :  In java arrays are stoer in contiguous fashion, 
+            but 2-D arrays ( matrix ) is not compulsory to store data in contiguous fashion.
  */
 import java.util.Scanner;
 public class _124_matrics {
@@ -26,12 +27,12 @@ public class _124_matrics {
         for(int i = 0 ; i < matrix.length ; i++){
             for (int j = 0 ; j < matrix[0].length ; j++){
                 if( target == matrix[i][j] ){
-                    System.out.println("Element found at index : [" + i + " , " + j +" ] "  );
+                    System.out.println("Element 5 found  at index : [" + i + " , " + j +"] "  );
                     return true ;
                 }
             }
         }
-        System.out.println("Error 404 element not found " );
+        System.out.println("Error 404 element 5 is not found " );
 
         return false ;
     }

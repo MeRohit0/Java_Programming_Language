@@ -1,14 +1,14 @@
 /*Program for taking user input using Scanner Class 
 and perform function 
 
-next();  
+next();         // we have to use nextline() with next() as to eliminate the error from multiple input 
 nextLine();    
 nextInt();
 nextByte();      
 nextFloat();    
-nextdouble();
+nextDouble();
 nextBoolean();      
-nextshort();
+nextShort();
 nextLong();
 
 */

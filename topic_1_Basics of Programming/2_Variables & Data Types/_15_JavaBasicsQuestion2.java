@@ -1,5 +1,8 @@
-//program to input the side of a square.You have to output the area of the square
+/*
+    Program to input the side of a square.
+    You have to output the area of the square
 
+*/
 import java.util.Scanner;
 public class _15_JavaBasicsQuestion2 {
     public static void main(String[] args) {

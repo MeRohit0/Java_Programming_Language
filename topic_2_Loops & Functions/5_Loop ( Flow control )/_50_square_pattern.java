@@ -7,6 +7,7 @@ public class _50_square_pattern {
             System.out.println("*   *   *   *");
         }
 
+         System.out.println();
         //done using while loop 
         int i = 1;
         while(i<=4){

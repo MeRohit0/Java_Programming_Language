@@ -3,7 +3,7 @@
     using the sort method which is provided by the java 
     In assending order and decending order 
     
-    time complexity - O(n . log(n))  n*log(n)
+    time complexity - O(n . log(n) )         n*log(n)
     
     
     import package the java.util.*
@@ -11,7 +11,7 @@
     2. Array.sort(arr, start_index , end_index);
     3. Arrays.sort(arr,Collections.reverseOrder());
     4  Arrays.sort(arr, start_index , end_index , Collections.reverseOrder());
-    NOTE - end_index is not included 
+    NOTE - end_index is not included & Collection.reverseOrder() works with Integer objects 
 
 */
 

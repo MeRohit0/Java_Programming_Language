@@ -2,7 +2,7 @@
     insertionSort 
     [ sorted array , unsorted array ]
     
-    example - insert the card 
+    example - arrange the cards in  deck of cards via insert the card from unsorted regin to sorted region  
 
     step 1 : we select the next element from unsorted array 
     step 2 : insert it into correct place in sorted array 
@@ -14,6 +14,7 @@ public class _119_insertionSort {
     public static void insertionSort(int arr[]){
         
         for( int i = 1 ; i < arr.length ; i++ ){
+            //store the value 
             int curr = arr[ i ] ;
             int prev = i - 1  ;
             //find the correct postion to insert

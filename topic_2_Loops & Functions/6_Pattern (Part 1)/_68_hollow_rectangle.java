@@ -32,13 +32,13 @@ public class _68_hollow_rectangle {
         for(int line = 1 ; line <= n-1 ; line ++ ){
             //print star
             if(line == 1 || line == n-1){
-            //print star at star and end only
+            //print star at start and end only * * * * *
                 for(int j = 1 ; j <= n ; j ++){
                     System.out.print("* ");
                 }
             }
             else{
-            //print star between star and end value of lines 
+            //print star between start and end value of lines *       * 
             for(int j = 1 ; j <=n ; j++)
                 if(j == 1 || j == n ){
                     System.out.print("* ");

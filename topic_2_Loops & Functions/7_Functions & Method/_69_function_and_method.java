@@ -1,9 +1,9 @@
 /*
 
     function is used to reuse the block of code which only run when they are call.
-    it increase code reusibility
+    it increase code reusability
 
-
+ 
     function has mainly 3 parts 
     
     1.declare --> we declare the function first
