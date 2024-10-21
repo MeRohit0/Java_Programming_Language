@@ -1,0 +1,26 @@
+/*
+    time and space complexity 
+
+    order complexity analysis (on time and space)
+        amount of space and time taken up by an algorithm/code as function of input size 
+        not actual time taken
+    Example : As input increases time also increases.
+
+
+    Big O notation O (): It is the maximum amount of time taken by the algorithm 
+                        for given input or Worst case.
+    
+    Big Omega notation Ω() : It is the minimum amount of time taken by the algorithm
+                            for given input or Best case.
+
+    Big theta θ ():  It is the average time between the big o and big omega ;
+
+    Space complexity is consist of input space + auxililary space (means extra space )
+        it contain 2 type of space stack and heap 
+        stack is used for function call 
+        and heap used for objects storage 
+
+ */
+public class _187_TimeAndSpaceComplexityIntroduction {
+    
+}

@@ -7,7 +7,7 @@ public class _37_switch_case {
                     break;
             case 2 : System.out.println("Burger");
                     break;
-            case 3 : System.out.println("Mango Shanke");
+            case 3 : System.out.println("Mango Shake");
                     break;
             case 4 : System.out.println("Maggi");
                     break;

@@ -1,6 +1,6 @@
 /*
     Program for the Creation for 2d arrays 
-    Note :  In java arrays are stoer in contiguous fashion, 
+    Note :  In java arrays are store in contiguous fashion, 
             but 2-D arrays ( matrix ) is not compulsory to store data in contiguous fashion.
  */
 import java.util.Scanner;

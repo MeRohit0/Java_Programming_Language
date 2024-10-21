@@ -7,4 +7,9 @@ Java has 3 types of loop
 2. for loop 
 3. do while loop 
 
+
+learn for-each loop in java 
+for (int i : arr){
+}
+
  */

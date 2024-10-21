@@ -3,6 +3,6 @@ public class _36_pass_fail {
     public static void main(String[] args) {
         int marks = 53;
         String report_card = (marks>=33)?"PASS":"FAIL";
-        System.err.println(report_card);
+        System.out.println(report_card);
     }
 }

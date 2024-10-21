@@ -1,5 +1,7 @@
 package Practice_Question.codeforce;
 /*
+
+ACCEPTED ✌️
 Petya loves lucky numbers. We all know that lucky numbers are the positive integers whose decimal representations contain only the lucky digits 4 and 7. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.
 
 Unfortunately, not all numbers are lucky. Petya calls a number nearly lucky if the number of lucky digits in it is a lucky number. He wonders whether number n is a nearly lucky number.
@@ -35,18 +37,18 @@ public static void main(String args[]){
     //input
     Scanner sc = new Scanner(System.in);
     String t = sc.nextLine();
-    String value = "YES";
+    String value = "NO";
 
+    int count = 0 ;
     int i = 0 ;
     while( i < t.length() ){
 
         char num = t.charAt(i);
-        if((num == '7'|| num=='4') && t.length() == 1){ value = "NO"; break;}
-        if(!(num == '4' || num == '7')){
-            value = "NO";
-            break;
-        }
+        if((num == '7'|| num=='4')){ count ++ ;}
         i++ ;
+    }
+    if(count == 4 || count == 7){
+        value = "YES";
     }
     System.out.println(value);
     sc.close();
